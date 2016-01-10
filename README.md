@@ -7,8 +7,9 @@ inside **zshrc**.  The script will symlink all configs so you can edit them and
 version control all your changes.
 
 ### Apps installed (via brew, mostly)
+_*denotes custom configs_
 - adafruit-arduino
-- atom
+- *atom**
 - caffeine
 - dash
 - dropbox
@@ -23,7 +24,7 @@ version control all your changes.
 - jq
 - mysql
 - node
-- oh-my-zsh
+- *oh-my-zsh**
 - postgres
 - python
 - readline
@@ -33,15 +34,15 @@ version control all your changes.
 - sqlite
 - the_silver_searcher
 - tig
-- tmux
+- *tmux**
 - transmission
 - unrar
 - v8
-- vim
+- *vim**
 - wget
 - xquartz
 - youtube-dl
-- zsh
+- *zsh**
 
 ### Python packages
 - flake8
