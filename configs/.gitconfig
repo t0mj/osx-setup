@@ -1,0 +1,15 @@
+[user]
+	name = Thomas Johns
+	email = stratic@gmail.com
+
+[alias]
+	co = checkout
+	cfg = config --global -e
+	cob = checkout -b
+	cm = !git add -A && git commit -m
+	save = !git add -A && git commit -m 'SAVEPOINT'
+	undo = reset HEAD~1 --mixed
+	amend = commit -a --amend
+	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+	cp = cherry-pick
+	st = status

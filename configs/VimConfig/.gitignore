@@ -1,0 +1,6 @@
+.vim/backup/*~
+.vim/tmp/*
+.vim/undo/%*
+.vim/.netrwhist
+.vim/bundle/*
+.vimrc_custom

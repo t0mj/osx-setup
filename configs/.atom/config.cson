@@ -1,0 +1,32 @@
+"*":
+  "exception-reporting":
+    userId: "646202e0-97de-f62e-858b-a774d0958c17"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    ignoredNames: [
+      "*.pyc node_modules .tmp .sass-cache platforms plugins *.swp *.swo *.log *.DS_Store .git .bowerrc .editorconfig .gitignore"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "AnonymousPro"
+  linter:
+    lintOnFly: false
+  "linter-jshint": {}
+  "linter-pep8": {}
+  "linter-flake8":
+    executableDir: "/usr/local/bin/"
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+  "atom-material-ui":
+    depth: true
+    compactTreeView: true
+    panelContrast: true
+    rippleAccentColor: true
+  "tree-view":
+    hideIgnoredNames: true
