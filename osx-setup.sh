@@ -71,11 +71,9 @@ brew cask install quicklook-csv quicklook-json animated-gif-quicklook
 
 # Apps
 echo_warn "Installing applications..."
-# google
-brew cask install google-chrome-canary
-# other favorites
 brew cask install \
-  caffeine dash dropbox elmedia-player flycut hyperdock slack steam transmission
+  battle-net caffeine dash dropbox elmedia-player flycut google-chrome-canary \
+	hyperdock slack steam transmission
 
 # Development Tools
 echo_warn "Installing dev tools..."
@@ -86,7 +84,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 
 # Python Packages
 echo_warn "Installing Python packages..."
-pip install flake8 pss virtualenv
+pip install flake8 ipython jupyter pss virtualenv
 
 # Gems
 echo_warn "Installing gems..."
@@ -126,6 +124,10 @@ brew cask install inkscape
 
 echo_warn "Finalizing setup..."
 mysql_secure_installation
+# Run battle.net installer
+cd /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app/Contents/MacOS/
+./Battle.net\ Setup
+cd ~/osx-setup
 
 echo
 echo_ok "Done."

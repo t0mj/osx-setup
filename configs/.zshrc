@@ -80,7 +80,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias venv="source .venv/bin/activate"
 alias dev="cd ~/Development"
@@ -95,3 +94,4 @@ alias szrc="source ~/.zshrc"
 alias py="python2.7"
 alias dj="py manage.py"
 alias ggi="git grep -i"
+alias setup="~/osx-setup/"

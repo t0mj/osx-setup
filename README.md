@@ -1,6 +1,9 @@
 ## Custom mac setup
 Specifically designed for *me*, **use at your own risk.**
 
+The main purpose is to be able to quickly and easily reformat.  Heavily geared
+towards python, mobile, and CLI development.
+
 ### Dot files
 Inside configs is dotfiles used for different tools.  **Aliases** are all found
 inside **zshrc**.  The script will symlink all configs so you can edit them and
@@ -15,7 +18,7 @@ _*denotes custom configs_
 - dropbox
 - elmedia-player
 - flycut
-- git
+- *git**
 - go
 - google-chrome-canary
 - htop-osx
@@ -46,6 +49,8 @@ _*denotes custom configs_
 
 ### Python packages
 - flake8
+- ipython
+- jupyter
 - pss
 - virtualenv
 
